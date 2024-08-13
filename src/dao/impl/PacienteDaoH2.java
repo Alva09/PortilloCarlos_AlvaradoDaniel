@@ -104,6 +104,16 @@ public class PacienteDaoH2 implements IDao<Paciente> {
     }
 
     @Override
+    public void eliminar(Integer id) {
+        
+    }
+
+    @Override
+    public void actualizar(Domicilio domicilio) {
+
+    }
+
+    @Override
     public List<Paciente> buscarTodos() {
         return null;
     }

@@ -37,4 +37,13 @@ public class PacienteDaoMemoria implements IDao<Paciente> {
     public List<Paciente> buscarTodos() {
         return null;
     }
+    @Override
+    public void eliminar(Integer id) {
+        
+    }
+
+    @Override
+    public void actualizar(Domicilio domicilio) {
+
+    }
 }

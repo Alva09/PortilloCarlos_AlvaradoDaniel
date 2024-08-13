@@ -99,6 +99,16 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
     }
 
     @Override
+    public void eliminar(Integer id) {
+        
+    }
+
+    @Override
+    public void actualizar(Domicilio domicilio) {
+
+    }
+
+    @Override
     public List<Domicilio> buscarTodos() {
         return null;
     }

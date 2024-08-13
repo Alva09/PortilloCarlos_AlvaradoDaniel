@@ -1,5 +1,6 @@
 package dao.impl;
 
+import dao.IDao;
 import model.Odontologo;
 import org.apache.log4j.Logger;
 
@@ -10,7 +11,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OdontologoDAOH2 implements iDao<Odontologo> {
+public class OdontologoDAOH2 implements IDao<Odontologo> {
 
     private static final Logger logger= Logger.getLogger(OdontologoDAOH2.class);
     private static final String SQL_INSERT = "INSERT INTO ODONTOLOGOS VALUES (?,?,?,?)";

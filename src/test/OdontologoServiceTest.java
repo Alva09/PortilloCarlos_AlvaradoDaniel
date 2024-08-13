@@ -1,8 +1,8 @@
 package test;
 
-import dao.BD;
+import dao.impl.BD;
 import dao.OdontologoDAO;
-import dao.OdontologoDAOCollectionImpl;
+import dao.impl.OdontologoDAOCollectionImpl;
 import model.Odontologo;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;

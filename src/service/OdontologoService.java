@@ -2,15 +2,15 @@
 package service;
 
 import dao.OdontologoDAO;
-import dao.OdontologoDAOCollectionImpl;
-import dao.OdontologoDAOH2;
-import dao.iDao;
+import dao.impl.OdontologoDAOCollectionImpl;
+import dao.impl.OdontologoDAOH2;
+import dao.IDao;
 import model.Odontologo;
 
 public class OdontologoService {
     private OdontologoDAOH2 odontologoDAOH2;
     private OdontologoDAO odontologoDAOCollectionImpl;
-    private iDao<Odontologo> odontologoiDao;
+    private IDao<Odontologo> odontologoiDao;
 
     public OdontologoService() {
         odontologoDAOH2 = new OdontologoDAOH2();
